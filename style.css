@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    padding: 40px 0 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: green;
+    justify-content: space-between;
+    color: white;
+}
+
+h1 {
+    margin-left: 75px;
+}
+
+li {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    margin-left: 55px;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.box {
+    width: 300px;
+    height: 450px;
+    background: lightgreen;
+    box-shadow: 0px 0px 10px 4px #aaa;
+    margin: 20px auto;
+}
+
+.box li {
+    font-size: 20px;
+    margin: 20px auto;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.box li button {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.box-card {
+    width: 700px;
+    height: 90px;
+    background: lightskyblue;
+    box-shadow: 0px 0px 10px 4px #aaa;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.box-card button {
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    margin: auto;
+}
+
+.box-card button a {
+    display: inline-block;
+    color: white;
+    margin-left: 55px;
+    margin-right: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
